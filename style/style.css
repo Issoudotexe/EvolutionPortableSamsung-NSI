@@ -1,0 +1,70 @@
+h1{
+	text-align:center;
+	text-shadow: 2px 4px 3px grey;
+	text-color: #d9b1a8;
+	font: 1.2em "Fira Sans", sans-serif;
+	font-style: italic;
+}
+h2{
+	text-align:center;
+	background: -webkit-linear-gradient(#ffffff, #962872);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-decoration: underline dotted;
+	font-size: 30px;
+}
+body
+{
+	background: linear-gradient(#e66465, #9198e5);
+	background-repeat: no-repeat;
+	height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+#titre
+{
+	
+}
+
+#gradienttitre
+{
+    height:40px;
+    font-size:30px;
+	margin-left:40%;
+	margin-right:40%;
+    background: linear-gradient(130deg, #ff7e00, #5cff00);
+    background-size: 200% 200%;
+    
+	-webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite;
+}
+
+#gradient
+{
+    height:50px;
+    font-size:30px;
+    background: linear-gradient(130deg, #ff7e00, #5cff00);
+    background-size: 200% 200%;
+
+    -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
