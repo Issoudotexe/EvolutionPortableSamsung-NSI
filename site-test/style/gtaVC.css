@@ -1,0 +1,73 @@
+body, html{
+	background-image: url(../images/bggtavc.jpg);
+	background-position: bottom 10%;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-color: #85487D;
+}
+
+.resume{
+	position:absolute;
+	margin-left:10%;
+	margin-right:10%;
+	line-height:24px;
+	font-size:24px; 
+	text-align:center; 
+	font: 1.5em "Fira Sans", sans-serif;
+}
+
+.titre
+{
+    position: relative ;
+	height:40px;
+    background: linear-gradient(130deg, #2e80d2, #0e0ee2);
+    background-size: 200% 200%;
+	-webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite;
+	text-shadow: 2px 4px 3px grey;
+	font: 1.8em "Fira Sans", sans-serif;
+	font-style: italic;
+	text-align: center;
+}
+
+.centervideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centerimage{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+
+}
+
+.imgtitre{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  width: 30%;
+  height: 0%;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
